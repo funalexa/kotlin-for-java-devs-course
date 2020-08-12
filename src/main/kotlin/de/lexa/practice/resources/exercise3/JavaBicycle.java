@@ -1,12 +1,13 @@
-package academy.learnprogramming.javacode;
+// given java class from academy learnprogramming as a resource for exercise 3
+package de.lexa.practice.resources.exercise3;
 
-public class Bicycle {
+public class JavaBicycle {
 
     private int cadence;
     private int gear;
     private int speed;
 
-    public Bicycle(int cadence, int speed, int gear) {
+    public JavaBicycle(int cadence, int speed, int gear) {
         this.gear = gear;
         this.cadence = cadence;
         this.speed = speed;

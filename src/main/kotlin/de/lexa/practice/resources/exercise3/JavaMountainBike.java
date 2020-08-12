@@ -1,10 +1,11 @@
-package academy.learnprogramming.javacode;
+// given java class from academy learnprogramming as a resource for exercise 3
+package de.lexa.practice.resources.exercise3;
 
-public class MountainBike extends academy.learnprogramming.javacode.Bicycle {
+public class JavaMountainBike extends JavaBicycle {
 
     private int seatHeight;
 
-    public MountainBike(int seatHeight,
+    public JavaMountainBike(int seatHeight,
                         int cadence,
                         int speed,
                         int gear) {

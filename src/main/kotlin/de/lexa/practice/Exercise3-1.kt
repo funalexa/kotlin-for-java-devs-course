@@ -1,6 +1,6 @@
 package de.lexa.practice
 
-// ex: convert java code from folder "exercise3-given-javacode" to kotlin code
+// ex: convert java code from folder "exercise3" in "resources" to kotlin code
 
 open class Bicycle(var cadence: Int, var speed: Int, var gear: Int){
 
@@ -17,15 +17,23 @@ open class Bicycle(var cadence: Int, var speed: Int, var gear: Int){
     }
 }
 
-class MountainBike(cadence: Int, speed: Int, gear: Int, var seatHeight: Int)
+class MountainBike(var seatHeight: Int, cadence: Int = 5, speed: Int = 10, gear: Int = 5)
     : Bicycle(cadence, speed, gear) {
+    constructor(colour: String, seatHeight: Int, cadence: Int, speed: Int, gear: Int)
+     : this(seatHeight, cadence, speed, gear){
+        println("The mountain bike is coloured $colour")
+    }
+    companion object {
+        val availableColours = listOf<String>("red", "blue", "green", "yellow", "black", "white")
+    }
+
     override fun printDescription() {
         super.printDescription()
         println("The mountain bike has a seat height of $seatHeight inches.")
     }
 }
 
-class RoadBike(cadence: Int, speed: Int, gear: Int, val tireWidth: Int)
+class RoadBike(private val tireWidth: Int, cadence: Int = 1, speed: Int = 20, gear: Int = 5)
     : Bicycle(cadence, speed, gear) {
     override fun printDescription(){
         super.printDescription()
