@@ -1,6 +1,6 @@
 package de.lexa.practice
 
-fun main() {
+fun thirdMain() {
     val kotlinBicycle = Bicycle(1, 1, 1)
     kotlinBicycle.printDescription()
     val kotlinMountainBike = MountainBike (9, 2, 2, 2)
