@@ -1,6 +1,6 @@
 package de.lexa.practice
 
-fun main() {
+fun secondMain() {
 // 1. Declare a non-nullable float variable two ways,
     // and assign it the value -3847.384
 
