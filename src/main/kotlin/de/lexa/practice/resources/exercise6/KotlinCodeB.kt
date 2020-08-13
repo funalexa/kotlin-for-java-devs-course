@@ -1,3 +1,5 @@
+// given kotlin file from academy learnprogramming as a resource for exercise 3
+
 package de.lexa.practice.resources.exercise6
 
 fun sayHelloToJavaB(name: String) {
