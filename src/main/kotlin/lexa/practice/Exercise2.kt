@@ -1,4 +1,4 @@
-package de.lexa.practice
+package lexa.practice
 
 fun secondMain() {
 // 1. Declare a non-nullable float variable two ways,
@@ -45,7 +45,10 @@ fun secondMain() {
     // 7. Now use the let function to (a) lowercase the string, and then
     // (b) replace "am" with "am not" in the result
 
-    val lowerCaseString = x?.let { println(it.toLowerCase().replace("am", "am not"))  }
+    val lowerCaseString =
+            x?.let {
+                println(it.toLowerCase().replace("am", "am not"))
+            }
 
     // 8. You're really, really confident that the variable myNonNullVariable can't
     // contain null.

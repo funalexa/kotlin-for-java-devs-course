@@ -1,4 +1,4 @@
-package de.lexa.practice
+package lexa.practice
 
 fun main() {
     val range = 5..5000

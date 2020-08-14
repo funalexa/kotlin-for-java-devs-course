@@ -1,4 +1,4 @@
-package de.lexa.practice.resources.exercise6;
+package lexa.practice.resources.exercise6;
 
 public class Employee {
 

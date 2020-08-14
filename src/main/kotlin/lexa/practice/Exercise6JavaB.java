@@ -1,8 +1,8 @@
-package de.lexa.practice;
+package lexa.practice;
 
-import de.lexa.practice.resources.exercise6.ChallengeB;
-import de.lexa.practice.resources.exercise6.KotlinCodeBKt;
-import de.lexa.practice.resources.exercise6.KotlinEmployeeB;
+import lexa.practice.resources.exercise6.ChallengeB;
+import lexa.practice.resources.exercise6.KotlinCodeBKt;
+import lexa.practice.resources.exercise6.KotlinEmployeeB;
 
 public class Exercise6JavaB {
 
@@ -12,7 +12,8 @@ public class Exercise6JavaB {
 
         KotlinCodeBKt.sayHelloToJavaB("Student");
 
-        KotlinEmployeeB employee = new KotlinEmployeeB("John", "Smith", 2010);
+        KotlinEmployeeB employee =
+                new KotlinEmployeeB("John", "Smith", 2010);
         employee.setStartYear(2009);
 
         ChallengeB.INSTANCE.doMath(5, 4);

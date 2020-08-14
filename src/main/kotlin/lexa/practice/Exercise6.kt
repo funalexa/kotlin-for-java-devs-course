@@ -1,6 +1,6 @@
-package de.lexa.practice
+package lexa.practice
 
-import de.lexa.practice.resources.exercise6.Employee
+import lexa.practice.resources.exercise6.Employee
 
 fun main() {
     val employee = Employee("Jane", "Doe", 1977)

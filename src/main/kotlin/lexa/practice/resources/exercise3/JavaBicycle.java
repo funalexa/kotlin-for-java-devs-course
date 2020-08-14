@@ -1,5 +1,5 @@
 // given java class from academy learnprogramming as a resource for exercise 3
-package de.lexa.practice.resources.exercise3;
+package lexa.practice.resources.exercise3;
 
 public class JavaBicycle {
 

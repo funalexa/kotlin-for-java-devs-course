@@ -1,4 +1,4 @@
-package de.lexa.practice
+package lexa.practice
 
 // ex: convert java code from folder "exercise3" in "resources" to kotlin code
 

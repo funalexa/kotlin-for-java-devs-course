@@ -1,4 +1,4 @@
-package de.lexa.practice;
+package lexa.practice;
 
 public class JavaClass {
 
